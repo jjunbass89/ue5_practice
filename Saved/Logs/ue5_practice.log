@@ -1476,3 +1476,855 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-08.52.20:808][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2023.09.30-08.52.20:869][262]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.09.30-08.52.59:443][702]LogDerivedDataCache: C:/Users/dongjun.lee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 588 files in 991 folders with total size 14 MiB.
+[2023.09.30-09.01.15:907][968]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-09.01.15:912][968]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-09.01.15:912][968]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-09.01.15:914][968]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 4 ms)
+[2023.09.30-09.01.15:915][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-09.01.15:915][968]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오전 3:01:15)
+[2023.09.30-09.01.15:915][968]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2023.09.30-09.01.15:917][968]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.09.30-09.01.15:936][969]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.01.15:940][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003712s)
+[2023.09.30-09.01.15:940][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003777s)
+[2023.09.30-09.01.15:945][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.09.30-09.01.15:946][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.01.15:946][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.01.15:947][969]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.01.15:947][969]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-09.01.15:947][969]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.01.15:947][969]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.01.15:947][969]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-09.01.15:948][969]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.01.15:948][969]LogWorldPartition: Display: WorldPartition initialize took 856 us (total: 119 ms)
+[2023.09.30-09.01.15:948][969]LogPlayLevel: PIE: World Init took: (0.002380s)
+[2023.09.30-09.01.15:948][969]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-09.01.15:948][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-09.01.15:948][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-09.01.15:949][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-09.01.15:949][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-09.01.15:949][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-09.01.15:951][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-09.01.15:967][969]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-09.01.15:967][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-09.01.15:967][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-09.01.15:967][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-09.01.15:968][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.09.30-09.01.15:968][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.09.30-09.01.15:970][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.09.30-09.01.15:970][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.09.30-09.01.15:970][969]LogInit: FAudioDevice initialized with ID 3.
+[2023.09.30-09.01.15:970][969]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.01.15:970][969]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.30-09.01.15:977][969]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-09.01.15:979][969]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.30-18.01.15
+[2023.09.30-09.01.15:979][969]LogWorld: Bringing up level for play took: 0.001567
+[2023.09.30-09.01.15:983][969]PIE: Server logged in
+[2023.09.30-09.01.15:984][969]PIE: Play in editor total start time 0.072 seconds.
+[2023.09.30-09.01.29:590][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.01.29:590][448]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.01.29:590][448]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.01.29:591][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.01.29:591][448]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.01.29:594][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-09.01.29:595][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.01.29:598][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.01.29:599][448]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.09.30-09.01.29:599][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.30-09.01.29:600][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.09.30-09.01.29:607][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.09.30-09.01.29:649][449]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.09.30-09.01.42:135][861]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-09.01.42:139][861]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-09.01.42:139][861]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-09.01.42:142][861]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 6 ms)
+[2023.09.30-09.01.42:142][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-09.01.42:142][861]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오전 3:01:42)
+[2023.09.30-09.01.42:142][861]LogPlayLevel: Display: Creating online subsystem for client :Context_4
+[2023.09.30-09.01.42:145][861]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.09.30-09.01.42:163][862]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.01.42:166][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003103s)
+[2023.09.30-09.01.42:166][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003148s)
+[2023.09.30-09.01.42:170][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.30-09.01.42:171][862]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.01.42:171][862]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.01.42:172][862]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.01.42:172][862]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-09.01.42:173][862]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.01.42:173][862]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.01.42:173][862]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-09.01.42:173][862]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.01.42:173][862]LogWorldPartition: Display: WorldPartition initialize took 913 us (total: 120 ms)
+[2023.09.30-09.01.42:173][862]LogPlayLevel: PIE: World Init took: (0.002193s)
+[2023.09.30-09.01.42:174][862]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-09.01.42:174][862]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-09.01.42:174][862]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-09.01.42:174][862]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-09.01.42:174][862]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-09.01.42:174][862]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-09.01.42:176][862]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-09.01.42:190][862]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-09.01.42:191][862]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-09.01.42:191][862]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-09.01.42:191][862]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-09.01.42:191][862]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.09.30-09.01.42:191][862]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.09.30-09.01.42:195][862]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.09.30-09.01.42:195][862]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.09.30-09.01.42:195][862]LogInit: FAudioDevice initialized with ID 4.
+[2023.09.30-09.01.42:195][862]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.01.42:195][862]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.30-09.01.42:203][862]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-09.01.42:204][862]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.30-18.01.42
+[2023.09.30-09.01.42:204][862]LogWorld: Bringing up level for play took: 0.001271
+[2023.09.30-09.01.42:207][862]PIE: Server logged in
+[2023.09.30-09.01.42:208][862]PIE: Play in editor total start time 0.069 seconds.
+[2023.09.30-09.01.48:589][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.01.48:590][ 86]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.01.48:590][ 86]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.01.48:590][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.01.48:590][ 86]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.01.48:593][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-09.01.48:594][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.01.48:598][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.01.48:598][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.30-09.01.48:598][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.30-09.01.48:600][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.30-09.01.48:605][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.09.30-09.01.48:658][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.09.30-09.01.53:741][248]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.02.11:197][810]LogSlate: Window 'Content Browser' being destroyed
+[2023.09.30-09.02.11:227][810]LogSlate: Window 'Content Browser' being destroyed
+[2023.09.30-09.02.58:883][423]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.30-09.03.04:126][583]LogSlate: Took 0.000693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.30-09.03.29:799][387]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.05.15:704][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.30-09.05.15:707][925]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.09.30-09.05.15:708][925]Cmd: MAP LOAD FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.30-09.05.15:708][925]LightingResults: New page: Lighting Build
+[2023.09.30-09.05.15:708][925]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.09.30-09.05.15:725][925]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.05.15:725][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.05.15:731][925]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.05.15:731][925]MapCheck: New page: Map Check
+[2023.09.30-09.05.15:731][925]LightingResults: New page: Lighting Build
+[2023.09.30-09.05.15:735][925]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-09.05.15:738][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.30-09.05.15:757][925]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.05.15:757][925]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.05.15:757][925]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.05.15:757][925]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.05.15:758][925]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.09.30-09.05.15:758][925]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.05.15:758][925]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.05.15:831][925]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.05.15:831][925]LogWorldPartition: Display: WorldPartition initialize took 72 ms (total: 192 ms)
+[2023.09.30-09.05.15:849][925]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.30-09.05.15:854][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.09.30-09.05.15:858][925]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.30-09.05.15:858][925]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.21ms to complete.
+[2023.09.30-09.05.17:411][976]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ThirdPersonMap_BuiltData
+[2023.09.30-09.05.19:950][ 57]LogSlate: Window 'ThirdPersonMap_BuiltData' being destroyed
+[2023.09.30-09.05.19:982][ 57]LogSlate: Window 'ThirdPersonMap_BuiltData' being destroyed
+[2023.09.30-09.06.08:321][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.09.30-09.06.08:323][450]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.06.08:323][450]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.06.08:359][450]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.09.30-09.06.32:407][161]LogTabManager: Warning: Unable to insert tab 'Document'.
+[2023.09.30-09.06.32:408][161]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'Document'
+[2023.09.30-09.06.32:456][161]LogSlate: The tab "Document" attempted to spawn in layout 'Standalone_BlueprintDefaults_Layout_v7' but failed for some reason. An "unrecognized tab" will be returned instead.
+[2023.09.30-09.06.32:476][161]LogSlate: Took 0.001110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.09.30-09.06.35:098][238]LogSlate: Window 'Event Graph' being destroyed
+[2023.09.30-09.06.35:134][238]LogSlate: Window 'Event Graph' being destroyed
+[2023.09.30-09.06.47:816][334]LogSlate: Window 'BP_ThirdPersonGameMode' being destroyed
+[2023.09.30-09.06.47:859][334]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.06.47:859][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.07.00:616][718]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Move.IA_Move
+[2023.09.30-09.07.08:506][938]LogSlate: Window 'IA_Move' being destroyed
+[2023.09.30-09.07.14:252][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.09.30-09.07.23:532][111]LogSlate: Window 'Save Content' being destroyed
+[2023.09.30-09.07.24:197][132]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ThirdPersonMap_BuiltData
+[2023.09.30-09.07.32:030][355]LogSlate: Window 'ThirdPersonMap_BuiltData' being destroyed
+[2023.09.30-09.08.09:355][486]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2023.09.30-09.08.09:357][486]LogAssetEditorSubsystem: Opening Asset editor for TextureCube /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight
+[2023.09.30-09.08.09:545][486]LogViewport: Scene viewport resized to 2857x1887, mode Windowed.
+[2023.09.30-09.08.10:005][500]LogTexture: Display: Building textures: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight (RGBA16F, 7372x3686 x1x1x1) (Required Memory Estimate: 932.979996 MB), EncodeSpeed: Fast
+[2023.09.30-09.08.13:223][590]LogSlate: Window 'HDRI_Epic_Courtyard_Daylight' being destroyed
+[2023.09.30-09.08.24:558][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: ================================================
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Tracking 3 distinct input hashes that result in 3 distinct outputs (100.00%)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: RAM used: 61.09 KiB of 3.20 GiB budget. Usage: 0.00%
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Shaders Compiled: 3
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Jobs assigned 4, completed 3 (75.00%)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Job execution time: average 1.39 s, max 1.39 s
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Job life time (pending + execution): average 1.44 s, max 1.45
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Shader code size: average 33.959 KiB, min 31.922 KiB, max 35.125 KiB
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.45 s
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Average processing rate: 2.07 jobs/sec
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Total thread time: 0.607 s
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Total thread preprocess time: 0.186 s
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Percentage time preprocessing: 30.68%
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Effective parallelization: 0.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 38.02% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                                 FLumenCardVS - 37.70% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 24.28% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.09.30-09.08.26:073][979]LogShaderCompilers: Display: ================================================
+[2023.09.30-09.08.32:830][180]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.09.30-09.08.32:830][180]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.08.32:830][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.08.33:731][182]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.09.11:027][222]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Look.IA_Look
+[2023.09.30-09.09.45:397][189]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Look.IA_Look
+[2023.09.30-09.09.51:760][367]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Look.IA_Look
+[2023.09.30-09.10.31:927][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-09.10.31:931][506]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-09.10.31:931][506]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-09.10.31:933][506]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 8 ms)
+[2023.09.30-09.10.31:934][506]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.30-09.10.31:934][506]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonGameMode before play...
+[2023.09.30-09.10.31:968][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.09.30-09.10.31:970][506]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2023.09.30-09.10.31:970][506]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오전 3:10:31)
+[2023.09.30-09.10.31:970][506]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2023.09.30-09.10.31:971][506]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.09.30-09.10.31:991][507]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.10.31:994][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002828s)
+[2023.09.30-09.10.31:994][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002873s)
+[2023.09.30-09.10.32:006][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.09.30-09.10.32:007][507]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.10.32:007][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.10.32:008][507]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.10.32:008][507]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-09.10.32:008][507]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.10.32:008][507]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.10.32:008][507]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-09.10.32:009][507]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.10.32:009][507]LogWorldPartition: Display: WorldPartition initialize took 849 us (total: 193 ms)
+[2023.09.30-09.10.32:009][507]LogPlayLevel: PIE: World Init took: (0.002064s)
+[2023.09.30-09.10.32:009][507]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-09.10.32:009][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-09.10.32:009][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-09.10.32:010][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-09.10.32:010][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-09.10.32:010][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-09.10.32:011][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-09.10.32:026][507]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-09.10.32:026][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-09.10.32:026][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-09.10.32:026][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-09.10.32:027][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.09.30-09.10.32:027][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.09.30-09.10.32:028][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.09.30-09.10.32:028][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.09.30-09.10.32:028][507]LogInit: FAudioDevice initialized with ID 5.
+[2023.09.30-09.10.32:028][507]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.10.32:028][507]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.30-09.10.32:036][507]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-09.10.32:038][507]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.30-18.10.32
+[2023.09.30-09.10.32:039][507]LogWorld: Bringing up level for play took: 0.001617
+[2023.09.30-09.10.32:042][507]PIE: Server logged in
+[2023.09.30-09.10.32:042][507]PIE: Play in editor total start time 0.111 seconds.
+[2023.09.30-09.10.37:340][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.10.37:340][731]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.10.37:340][731]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.10.37:340][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.10.37:341][731]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.10.37:342][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-09.10.37:345][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.10.37:357][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.10.37:357][731]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.09.30-09.10.37:357][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.30-09.10.37:359][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.09.30-09.10.37:365][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.30-09.10.37:429][734]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.09.30-09.10.41:370][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.09.30-09.10.41:515][852]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-09.10.41:519][852]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-09.10.41:520][852]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-09.10.41:522][852]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 10 ms)
+[2023.09.30-09.10.41:522][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-09.10.41:522][852]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오전 3:10:41)
+[2023.09.30-09.10.41:522][852]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2023.09.30-09.10.41:524][852]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.09.30-09.10.41:542][853]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.10.41:545][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002923s)
+[2023.09.30-09.10.41:545][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002956s)
+[2023.09.30-09.10.41:554][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.09.30-09.10.41:555][853]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.10.41:555][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.10.41:555][853]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.10.41:556][853]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-09.10.41:556][853]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.10.41:556][853]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.10.41:556][853]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-09.10.41:557][853]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.10.41:557][853]LogWorldPartition: Display: WorldPartition initialize took 909 us (total: 194 ms)
+[2023.09.30-09.10.41:557][853]LogPlayLevel: PIE: World Init took: (0.002185s)
+[2023.09.30-09.10.41:557][853]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-09.10.41:557][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-09.10.41:557][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-09.10.41:557][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-09.10.41:557][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-09.10.41:558][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-09.10.41:559][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-09.10.41:573][853]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-09.10.41:573][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-09.10.41:573][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-09.10.41:573][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-09.10.41:573][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.09.30-09.10.41:573][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.09.30-09.10.41:575][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.09.30-09.10.41:575][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.09.30-09.10.41:575][853]LogInit: FAudioDevice initialized with ID 6.
+[2023.09.30-09.10.41:575][853]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.10.41:575][853]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.30-09.10.41:582][853]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-09.10.41:584][853]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.30-18.10.41
+[2023.09.30-09.10.41:584][853]LogWorld: Bringing up level for play took: 0.001421
+[2023.09.30-09.10.41:588][853]PIE: Server logged in
+[2023.09.30-09.10.41:589][853]PIE: Play in editor total start time 0.07 seconds.
+[2023.09.30-09.10.50:310][147]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2023.09.30-09.10.50:316][147]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.10.50:316][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.10.53:540][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.10.53:540][264]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.10.53:540][264]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.10.53:540][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.10.53:540][264]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.10.53:590][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-09.10.53:594][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.10.53:604][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.10.53:604][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.09.30-09.10.53:604][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.30-09.10.53:606][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.09.30-09.10.53:613][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.09.30-09.10.53:647][265]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.09.30-09.10.56:483][356]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-09.10.56:487][356]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-09.10.56:487][356]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-09.10.56:490][356]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 13 ms)
+[2023.09.30-09.10.56:490][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-09.10.56:490][356]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오전 3:10:56)
+[2023.09.30-09.10.56:490][356]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2023.09.30-09.10.56:492][356]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.09.30-09.10.56:517][357]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.10.56:521][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003565s)
+[2023.09.30-09.10.56:521][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003606s)
+[2023.09.30-09.10.56:532][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.09.30-09.10.56:533][357]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.10.56:533][357]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.10.56:534][357]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-09.10.56:534][357]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-09.10.56:534][357]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-09.10.56:534][357]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-09.10.56:534][357]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-09.10.56:535][357]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-09.10.56:535][357]LogWorldPartition: Display: WorldPartition initialize took 820 us (total: 195 ms)
+[2023.09.30-09.10.56:535][357]LogPlayLevel: PIE: World Init took: (0.001872s)
+[2023.09.30-09.10.56:535][357]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-09.10.56:535][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-09.10.56:535][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-09.10.56:536][357]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-09.10.56:536][357]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-09.10.56:536][357]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-09.10.56:537][357]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-09.10.56:550][357]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-09.10.56:550][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-09.10.56:550][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-09.10.56:550][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-09.10.56:551][357]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.09.30-09.10.56:551][357]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.09.30-09.10.56:553][357]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.09.30-09.10.56:553][357]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.09.30-09.10.56:553][357]LogInit: FAudioDevice initialized with ID 7.
+[2023.09.30-09.10.56:553][357]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2023.09.30-09.10.56:553][357]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.30-09.10.56:557][357]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-09.10.56:558][357]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.30-18.10.56
+[2023.09.30-09.10.56:558][357]LogWorld: Bringing up level for play took: 0.001288
+[2023.09.30-09.10.56:561][357]PIE: Server logged in
+[2023.09.30-09.10.56:562][357]PIE: Play in editor total start time 0.074 seconds.
+[2023.09.30-09.11.09:720][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.11.09:720][795]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-09.11.09:720][795]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.11.09:720][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.11.09:721][795]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-09.11.09:734][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-09.11.09:738][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.11.09:750][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-09.11.09:751][795]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.09.30-09.11.09:751][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.30-09.11.09:752][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.09.30-09.11.09:760][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.30-09.11.09:802][796]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.09.30-09.11.18:216][ 64]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/ThirdPerson/Input/Actions/IA_Look.IA_Look
+[2023.09.30-09.11.35:591][576]LogSlate: Window 'IA_Look' being destroyed
+[2023.09.30-09.11.48:499][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.30-09.12.00:702][976]LogSlate: Window 'Save Content' being destroyed
+[2023.09.30-09.12.01:921][ 15]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ThirdPersonMap_BuiltData
+[2023.09.30-09.12.04:527][ 91]LogSlate: Window 'ThirdPersonMap_BuiltData' being destroyed
+[2023.09.30-09.12.18:096][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.09.30-09.12.18:096][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.12.18:096][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.12.20:352][535]LogSlate: Window 'BP_ThirdPersonGameMode' being destroyed
+[2023.09.30-09.12.20:383][535]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.12.20:383][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.14.20:941][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.14.21:190][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.14.21:358][129]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.14.21:408][130]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.25:965][887]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd
+[2023.09.30-09.15.25:971][887]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd
+[2023.09.30-09.15.26:004][887]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd, at AnimationSequence/0d7d9c9bce8db47d958a00d421cbfe7f46d51176
+[2023.09.30-09.15.26:036][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.T_UELogo_Mask (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:038][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:040][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:041][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.T_ML_Aluminum01 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:041][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:047][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.T_UE4_Mannequin_MAT_MASKA (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:048][887]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2023.09.30-09.15.26:078][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.T_UELogo_N_TGA (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:103][887]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+[2023.09.30-09.15.26:128][887]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.26:128][887]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.26:146][887]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.T_UE4_Mannequin__normals (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2023.09.30-09.15.26:209][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.15.26:227][887]LogTexture: Display: Waiting for textures to be ready 0/6 (/Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals) ...
+[2023.09.30-09.15.26:602][887]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.26:602][887]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.26:682][887]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.26:708][887]LogSlate: Took 0.002752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.09.30-09.15.26:717][887]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2023.09.30-09.15.26:724][887]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.26:724][887]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.26:873][887]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.15.26:918][887]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.15.27:447][899]LogShaderCompilers: Display: ================================================
+[2023.09.30-09.15.27:447][899]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-09.15.27:447][899]LogShaderCompilers: Display: Total job queries 18, among them cache hits 0 (0.00%)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: RAM used: 85.63 KiB of 3.20 GiB budget. Usage: 0.00%
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Shaders Compiled: 5
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Jobs assigned 13, completed 5 (38.46%)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Average time worker was idle: 336.61 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.67 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Job execution time: average 1.24 s, max 1.49 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Job life time (pending + execution): average 1.31 s, max 1.55
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Shader code size: average 27.773 KiB, min 4.465 KiB, max 35.125 KiB
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.22 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Jobs were issued in 13 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Average processing rate: 2.25 jobs/sec
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Total thread time: 1.043 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Total thread preprocess time: 0.354 s
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Percentage time preprocessing: 33.91%
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Effective parallelization: 0.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.27% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.12% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.94% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                                  FHitProxyPS - 15.54% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.13% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.09.30-09.15.27:448][899]LogShaderCompilers: Display: ================================================
+[2023.09.30-09.15.28:193][914]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.28:373][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.30:404][957]LogSlate: Window 'Jog_Fwd' being destroyed
+[2023.09.30-09.15.30:419][957]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.15.30:419][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.15.30:427][957]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.15.30:427][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.15.30:464][957]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.15.30:464][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.15.43:722][347]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn) ...
+[2023.09.30-09.15.48:426][493]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.BS_MF_Unarmed_WalkRun
+[2023.09.30-09.15.48:429][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.48:429][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.48:464][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.15.48:750][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.48:750][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.48:843][493]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.15.48:865][493]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.15.48:982][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.52:540][568]LogSlate: Window 'BS_MF_Unarmed_WalkRun' being destroyed
+[2023.09.30-09.15.52:555][568]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.15.52:555][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.15.52:590][568]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.15.52:590][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.15.59:206][772]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Idle.MF_Idle
+[2023.09.30-09.15.59:208][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.59:208][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.59:244][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.15.59:551][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.59:551][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.59:592][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.15.59:630][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.59:658][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.15.59:658][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.15.59:676][772]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.15.59:701][772]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.16.02:659][834]LogSlate: Window 'MF_Idle' being destroyed
+[2023.09.30-09.16.02:672][834]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.02:672][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.02:681][834]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.02:681][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.02:717][834]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.02:717][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.06:742][954]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd
+[2023.09.30-09.16.06:743][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.06:743][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.06:772][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.16.07:067][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.07:067][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.07:101][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.16.07:157][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.07:157][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.07:171][954]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.16.07:197][954]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.16.18:255][110]LogSlate: Window 'MF_Run_Fwd' being destroyed
+[2023.09.30-09.16.18:268][110]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.18:268][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.18:276][110]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.18:276][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.18:312][110]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.18:312][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.24:054][298]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.09.30-09.16.24:054][298]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.09.30-09.16.24:082][298]LogViewport: Scene viewport resized to 3056x1228, mode Windowed.
+[2023.09.30-09.16.31:960][608]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2023.09.30-09.16.31:961][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.31:961][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.31:976][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.31:976][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.31:983][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.16.32:315][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.32:315][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.32:388][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.32:405][608]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.16.32:484][608]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.16.39:496][790]LogSlate: Window 'ABP_Manny' being destroyed
+[2023.09.30-09.16.39:510][790]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.39:510][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.39:522][790]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.39:522][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.39:569][790]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.39:569][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.44:629][965]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.BS_MM_WalkRun
+[2023.09.30-09.16.44:630][965]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.44:630][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.44:647][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.16.44:931][965]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.44:932][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.45:018][965]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.16.45:038][965]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.16.49:351][ 65]LogSlate: Window 'BS_MM_WalkRun' being destroyed
+[2023.09.30-09.16.49:369][ 65]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.49:369][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.49:408][ 65]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.49:408][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.51:824][144]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Idle.MM_Idle
+[2023.09.30-09.16.51:825][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.51:825][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.51:882][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.16.52:156][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.52:156][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.52:245][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.52:245][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.52:260][144]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.16.52:283][144]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.16.55:963][229]LogSlate: Window 'MM_Idle' being destroyed
+[2023.09.30-09.16.55:977][229]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.55:977][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.55:986][229]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.55:986][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.56:024][229]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.16.56:024][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.16.59:788][356]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd
+[2023.09.30-09.16.59:789][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.16.59:789][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.16.59:806][356]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.17.00:108][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.17.00:108][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.17.00:231][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.17.00:232][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.17.00:247][356]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.17.00:270][356]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.17.02:136][400]LogSlate: Window 'MM_Run_Fwd' being destroyed
+[2023.09.30-09.17.02:152][400]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.02:152][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.02:162][400]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.02:162][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.02:198][400]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.02:198][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.05:592][523]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.MM_Walk_Fwd
+[2023.09.30-09.17.05:593][523]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.17.05:593][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.17.05:624][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.17.05:942][523]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.17.05:942][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.17.06:035][523]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.17.06:035][523]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.17.06:074][523]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.17.06:102][523]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.17.07:494][555]LogSlate: Window 'MM_Walk_Fwd' being destroyed
+[2023.09.30-09.17.07:506][555]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.07:506][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.07:516][555]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.07:516][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.07:549][555]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.17.07:549][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.17.46:282][929]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.09.30-09.18.10:731][740]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd1.MM_Run_Fwd1
+[2023.09.30-09.18.10:806][740]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd1.MM_Run_Fwd1, at AnimationSequence/c97cd44d923235a8f3efe1b4a79c27e98474d47c
+[2023.09.30-09.18.15:576][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.18.15:726][883]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/MM_Idle1
+[2023.09.30-09.18.15:726][883]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/MM_Idle11162A9E142BF111DBCDF7E8FB964286D.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/MM_Idle1.uasset'
+[2023.09.30-09.18.15:738][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 354 ms)
+[2023.09.30-09.18.15:801][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.09.30-09.18.15:820][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.09.30-09.18.15:833][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.09.30-09.18.15:846][883]AssetCheck: New page: Asset Save: MM_Idle1
+[2023.09.30-09.18.15:846][883]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/lost_ark_character/Animations/MM_Idle1.MM_Idle1
+[2023.09.30-09.18.18:137][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.18.18:248][957]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/MM_Run_Fwd1
+[2023.09.30-09.18.18:249][957]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/MM_Run_Fwd1A0ADE37C4F4F4CE4C696149DB9FAD100.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/MM_Run_Fwd1.uasset'
+[2023.09.30-09.18.18:259][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 475 ms)
+[2023.09.30-09.18.18:278][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.09.30-09.18.18:292][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.09.30-09.18.18:305][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.09.30-09.18.18:318][957]AssetCheck: New page: Asset Save: MM_Run_Fwd1
+[2023.09.30-09.18.18:318][957]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/lost_ark_character/Animations/MM_Run_Fwd1.MM_Run_Fwd1
+[2023.09.30-09.18.21:924][ 84]LogContentBrowser: Attempting asset rename: MM_Idle1 -> MM_Idle
+[2023.09.30-09.18.21:949][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.18.22:058][ 84]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/MM_Idle
+[2023.09.30-09.18.22:058][ 84]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/MM_Idle0513C2B743016B1BC18085BA819691DB.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/MM_Idle.uasset'
+[2023.09.30-09.18.22:069][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 595 ms)
+[2023.09.30-09.18.22:090][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.30-09.18.22:105][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.09.30-09.18.22:120][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.09.30-09.18.22:124][ 84]AssetCheck: New page: Asset Save: MM_Idle
+[2023.09.30-09.18.22:124][ 84]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/lost_ark_character/Animations/MM_Idle.MM_Idle
+[2023.09.30-09.18.27:201][276]LogContentBrowser: Attempting asset rename: MM_Run_Fwd1 -> Run_Fwd
+[2023.09.30-09.18.27:227][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.18.27:322][276]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/Run_Fwd
+[2023.09.30-09.18.27:322][276]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/Run_Fwd7B2060FA45C0312A2C2F93A0AD7FA9E9.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/Run_Fwd.uasset'
+[2023.09.30-09.18.27:330][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 698 ms)
+[2023.09.30-09.18.27:349][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.09.30-09.18.27:363][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.30-09.18.27:375][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.30-09.18.27:378][276]AssetCheck: New page: Asset Save: Run_Fwd
+[2023.09.30-09.18.27:378][276]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/lost_ark_character/Animations/Run_Fwd.Run_Fwd
+[2023.09.30-09.18.30:539][398]LogContentBrowser: Attempting asset rename: MM_Idle -> Idle
+[2023.09.30-09.18.30:564][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.18.30:676][398]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/Idle
+[2023.09.30-09.18.30:676][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/IdleCFF2591048CB1BEC1466EDBD3BF2D1DC.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/Idle.uasset'
+[2023.09.30-09.18.30:685][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 819 ms)
+[2023.09.30-09.18.30:703][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.09.30-09.18.30:717][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.30-09.18.30:730][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.09.30-09.18.30:734][398]AssetCheck: New page: Asset Save: Idle
+[2023.09.30-09.18.30:734][398]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Characters/lost_ark_character/Animations/Idle.Idle
+[2023.09.30-09.18.45:627][617]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/lost_ark_character/Animations/Idle.Idle
+[2023.09.30-09.18.45:628][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.18.45:629][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.18.45:675][617]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.18.45:943][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.18.45:943][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.18.46:030][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.18.46:030][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.18.46:048][617]LogViewport: Scene viewport resized to 2287x1131, mode Windowed.
+[2023.09.30-09.18.46:072][617]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.18.51:704][755]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.18.51:704][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.18.53:499][799]LogViewport: Scene viewport resized to 2865x1131, mode Windowed.
+[2023.09.30-09.18.55:046][834]LogSlate: Window 'Idle' being destroyed
+[2023.09.30-09.18.55:062][834]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.18.55:062][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.18.55:096][834]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.18.55:096][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.19.48:503][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.09.30-09.19.48:507][662]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.019
+[2023.09.30-09.19.48:509][662]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2023.09.30-09.19.48:510][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2023.09.30-09.19.48:517][662]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto1
+[2023.09.30-09.19.48:517][662]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/BP_ThirdPersonGameMode_Auto185A2C00145911E9698D29C9F3F2A9DC8.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto1.uasset'
+[2023.09.30-09.19.48:518][662]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.09.30-09.21.04:385][ 15]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2023.09.30-09.21.04:392][ 15]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2023.09.30-09.21.04:398][ 15]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2023.09.30-09.21.04:407][ 16]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2023.09.30-09.21.06:727][ 53]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> NewAnimBlueprint
+[2023.09.30-09.21.06:734][ 53]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2023.09.30-09.21.06:791][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.07:779][ 87]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.NewAnimBlueprint
+[2023.09.30-09.21.07:780][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.07:780][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.07:822][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.07:822][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.07:832][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.21.08:148][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.08:148][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.08:240][ 87]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.21.08:293][ 87]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.21.11:832][184]LogSlate: Window 'NewAnimBlueprint' being destroyed
+[2023.09.30-09.21.11:843][184]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.21.11:843][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.21.11:854][184]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.21.11:854][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.21.11:895][184]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.21.11:895][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.21.28:579][913]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ABP_lost_ark_character
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.SKEL_ABP_lost_ark_character_C:AnimGraph' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.SKEL_ABP_lost_ark_character_C' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character_C:AnimGraph' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character_C' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:603][913]LogMetaData: Removing '/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Characters/lost_ark_character/Animations/NewAnimBlueprint.PackageMetaData'
+[2023.09.30-09.21.28:609][913]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.21.28:671][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.28:733][913]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character
+[2023.09.30-09.21.28:733][913]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/ABP_lost_ark_character6C94A93043D8F3F8513A0789CE0E7072.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/ABP_lost_ark_character.uasset'
+[2023.09.30-09.21.28:744][913]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 954 ms)
+[2023.09.30-09.21.28:767][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.09.30-09.21.28:782][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.09.30-09.21.28:796][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.09.30-09.21.28:798][913]AssetCheck: New page: Asset Save: ABP_lost_ark_character
+[2023.09.30-09.21.28:798][913]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
+[2023.09.30-09.21.32:100][ 52]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
+[2023.09.30-09.21.32:100][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.32:100][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.32:118][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.32:118][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.32:124][ 52]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.21.32:453][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.21.32:453][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.21.32:538][ 52]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.21.32:579][ 52]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.21.33:285][ 71]LogViewport: Scene viewport resized to 192x192, mode Windowed.
+[2023.09.30-09.23.24:590][208]LogSlate: Window 'ABP_lost_ark_character' being destroyed
+[2023.09.30-09.23.24:600][208]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.24:600][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.24:611][208]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.24:611][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.24:649][208]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.24:649][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.28:657][319]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
+[2023.09.30-09.23.28:657][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.28:657][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.28:688][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.28:688][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.28:695][319]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.23.29:017][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.29:017][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.29:110][319]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.23.29:146][319]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.23.39:521][586]LogSlate: Window 'ABP_lost_ark_character' being destroyed
+[2023.09.30-09.23.39:533][586]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.39:533][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.39:543][586]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.39:543][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.39:586][586]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.23.39:586][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.23.41:314][647]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
+[2023.09.30-09.23.41:314][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.41:315][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.41:349][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.41:349][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.41:357][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.23.41:685][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.23.41:685][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.23.41:780][647]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.23.41:814][647]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.24.01:572][149]LogViewport: Scene viewport resized to 1792x887, mode Windowed.
+[2023.09.30-09.24.05:596][242]LogSlate: Window 'ABP_lost_ark_character' being destroyed
+[2023.09.30-09.24.05:611][242]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.24.05:611][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.24.05:621][242]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.24.05:621][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.24.05:661][242]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-09.24.05:661][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-09.24.06:464][270]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
+[2023.09.30-09.24.06:464][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.24.06:464][270]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.24.06:476][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.24.06:476][270]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.24.06:483][270]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.24.06:813][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-09.24.06:813][270]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-09.24.06:897][270]LogViewport: Scene viewport resized to 953x887, mode Windowed.
+[2023.09.30-09.24.06:960][270]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.09.30-09.24.52:947][347]LogViewport: Scene viewport resized to 192x192, mode Windowed.
+[2023.09.30-09.25.33:327][117]LogEditorTransaction: Undo Move Node
+[2023.09.30-09.25.33:450][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-09.31.15:290][ 71]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18446736715808144615
+[2023.09.30-09.31.15:290][ 71]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.09.30-09.31.24:255][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.09.30-09.31.24:258][214]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2023.09.30-09.31.24:258][214]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2023.09.30-09.31.24:259][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2023.09.30-09.31.24:262][214]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto2
+[2023.09.30-09.31.24:262][214]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/BP_ThirdPersonGameMode_Auto2ABA490D44A3851B92EAB10948F43849B.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto2.uasset'
+[2023.09.30-09.31.24:263][214]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character] ([2] browsable assets)...
+[2023.09.30-09.31.24:311][214]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character]
+[2023.09.30-09.31.24:311][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character]
+[2023.09.30-09.31.24:324][214]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character_Auto2
+[2023.09.30-09.31.24:324][214]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/ABP_lost_ark_character_Auto23E026D8C452048CB2E81F0839F66BCAA.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/Autosaves/Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character_Auto2.uasset'
+[2023.09.30-09.31.24:325][214]LogFileHelpers: Auto-saving content packages took 0.067
+[2023.09.30-09.37.42:128][  1]BlueprintLog: New page: Compile ABP_lost_ark_character
+[2023.09.30-09.37.42:159][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.09.30-09.37.50:058][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.09.30-09.37.50:063][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-09.37.50:174][198]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.09.30-09.37.50:175][198]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/BP_ThirdPersonGameMode7809546E4FABE12BD7B774B6E0CE2C2D.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.09.30-09.37.50:213][198]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character
+[2023.09.30-09.37.50:214][198]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/ABP_lost_ark_characterF73976ED489AEF3A7A5D17B7EA82C762.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/Animations/ABP_lost_ark_character.uasset'
+[2023.09.30-09.37.50:220][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 1.11 sec)
+[2023.09.30-09.37.50:224][198]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-09.37.50:224][198]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.09.30-09.37.50:224][198]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Characters/lost_ark_character/Animations/ABP_lost_ark_character.ABP_lost_ark_character
