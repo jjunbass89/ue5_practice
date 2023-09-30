@@ -5055,3 +5055,635 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.30-23.12.46:768][322]LogWorld: Bringing up level for play took: 0.000564
 [2023.09.30-23.12.46:770][322]PIE: Server logged in
 [2023.09.30-23.12.46:770][322]PIE: Play in editor total start time 0.063 seconds.
+[2023.09.30-23.19.43:132][498]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\dongjun.lee\Downloads\drone-futuriste\source\drone_fufu_collpase_02.fbx)
+[2023.09.30-23.19.43:159][498]LogFbx: Loading FBX Scene from C:\Users\dongjun.lee\Downloads\drone-futuriste\source\drone_fufu_collpase_02.fbx
+[2023.09.30-23.19.43:200][498]LogFbx: FBX Scene Loaded Succesfully
+[2023.09.30-23.19.46:139][498]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.09.30-23.19.46:185][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.46:189][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_antenne_BaseColor.drone_fufu_collpase_antenne_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.46:196][498]LogFbx: Display: Triangulating static mesh Cylinder
+[2023.09.30-23.19.46:236][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_Cylinder...
+[2023.09.30-23.19.46:259][498]LogStaticMesh: Built static mesh [0.02s] /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.19.46:336][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.46:347][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_accroche_BaseColor.drone_fufu_collpase_accroche_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.46:364][498]LogFbx: Display: Triangulating static mesh accroche_1
+[2023.09.30-23.19.46:613][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_accroche_1...
+[2023.09.30-23.19.46:757][498]LogStaticMesh: Built static mesh [0.14s] /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.19.46:820][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.46:824][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_cable_BaseColor.drone_fufu_collpase_cable_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.46:832][498]LogFbx: Display: Triangulating static mesh cable
+[2023.09.30-23.19.47:287][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_cable...
+[2023.09.30-23.19.47:484][498]LogStaticMesh: Built static mesh [0.20s] /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.19.47:630][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.47:641][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_fusil_BaseColor.drone_fufu_collpase_fusil_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.47:661][498]LogFbx: Display: Triangulating static mesh fusil
+[2023.09.30-23.19.47:817][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_fusil...
+[2023.09.30-23.19.47:910][498]LogStaticMesh: Built static mesh [0.09s] /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.19.47:964][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.47:967][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_canon_BaseColor.drone_fufu_collpase_canon_BaseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.47:975][498]LogFbx: Display: Triangulating static mesh canon
+[2023.09.30-23.19.48:041][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_canon...
+[2023.09.30-23.19.48:082][498]LogStaticMesh: Built static mesh [0.04s] /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.19.48:152][498]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.09.30-23.19.48:163][498]LogTexture: Display: Building textures: /Game/Items/drone/drone_fufu_collpase_corps_BaseColor.drone_fufu_collpase_corps_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.09.30-23.19.48:178][498]LogFbx: Display: Triangulating static mesh Sphere
+[2023.09.30-23.19.48:350][498]LogStaticMesh: Display: Building static mesh drone_fufu_collpase_02_Sphere...
+[2023.09.30-23.19.48:424][498]LogStaticMesh: Built static mesh [0.08s] /Game/Items/drone/drone_fufu_collpase_02_Sphere.drone_fufu_collpase_02_Sphere
+[2023.09.30-23.19.48:540][498]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.09.30-23.19.48:804][499]LogShaderCompilers: Display: ================================================
+[2023.09.30-23.19.48:804][499]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.30-23.19.48:804][499]LogShaderCompilers: Display: Total job queries 159, among them cache hits 89 (55.97%)
+[2023.09.30-23.19.48:804][499]LogShaderCompilers: Display: Tracking 70 distinct input hashes that result in 44 distinct outputs (62.86%)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: RAM used: 1.58 MiB of 3.20 GiB budget. Usage: 0.05%
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Shaders Compiled: 28
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100%)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Average time worker was idle: 4.75 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.58 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Job execution time: average 0.44 s, max 0.77 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Job life time (pending + execution): average 0.54 s, max 0.90
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Shader code size: average 39.941 KiB, min 32.148 KiB, max 62.961 KiB
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.58 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Average processing rate: 7.83 jobs/sec
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Total thread time: 7.349 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Total thread preprocess time: 2.006 s
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Percentage time preprocessing: 27.29%
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Effective parallelization: 2.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.10% of total time (compiled    5 times, average 0.27 sec, max 0.30 sec, min 0.21 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.11% of total time (compiled    5 times, average 0.25 sec, max 0.27 sec, min 0.23 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.72% of total time (compiled    3 times, average 0.26 sec, max 0.27 sec, min 0.26 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.58% of total time (compiled    3 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.21% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.09.30-23.19.48:805][499]LogShaderCompilers: Display: ================================================
+[2023.09.30-23.20.18:580][715]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.20.18:661][715]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.20.18:661][715]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.20.19:117][715]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.09.30-23.20.25:447][  7]LogSlate: Window 'drone_fufu_collpase_02_fusil' being destroyed
+[2023.09.30-23.20.25:490][  7]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.20.25:491][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.20.27:791][168]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.20.27:882][168]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.20.27:882][168]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.20.28:336][168]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.09.30-23.20.30:703][277]LogSlate: Window 'drone_fufu_collpase_02_accroche_1' being destroyed
+[2023.09.30-23.20.30:747][277]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.20.30:747][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.20.33:580][481]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.20.33:665][481]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.20.33:665][481]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.20.34:119][481]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.09.30-23.20.35:959][568]LogSlate: Window 'drone_fufu_collpase_02_Cylinder' being destroyed
+[2023.09.30-23.20.35:999][568]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.20.35:999][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.20.46:375][167]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Sphere.drone_fufu_collpase_02_Sphere
+[2023.09.30-23.20.46:448][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.20.46:448][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.20.46:904][167]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.09.30-23.20.48:614][243]LogSlate: Window 'drone_fufu_collpase_02_Sphere' being destroyed
+[2023.09.30-23.20.48:618][243]LogSlate: Window 'drone_fufu_collpase_02_Sphere' being destroyed
+[2023.09.30-23.20.48:654][243]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.20.48:654][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.20.50:668][388]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.20.50:767][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.20.50:767][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.20.51:237][388]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.09.30-23.20.52:395][440]LogSlate: Window 'drone_fufu_collpase_02_fusil' being destroyed
+[2023.09.30-23.20.52:399][440]LogSlate: Window 'drone_fufu_collpase_02_fusil' being destroyed
+[2023.09.30-23.20.52:436][440]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.20.52:436][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.21.04:504][125]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.30-23.21.04:524][125]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.30-23.21.04:536][126]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.30-23.21.08:122][384]LogContentBrowser: Attempting asset rename: NewFolder -> textures
+[2023.09.30-23.21.08:122][384]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.30-23.21.19:165][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-23.21.20:290][398]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/accroche
+[2023.09.30-23.21.20:290][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/accrocheB6FF408743112B8D5F12B9B233C3930E.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/accroche.uasset'
+[2023.09.30-23.21.20:306][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/antenne" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/antenne.uasset" SILENT=true
+[2023.09.30-23.21.20:308][398]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/antenne
+[2023.09.30-23.21.20:308][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/antenne2A0FE6E146604F5982E55FADBBEC66CE.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/antenne.uasset'
+[2023.09.30-23.21.20:323][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/cable" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/cable.uasset" SILENT=true
+[2023.09.30-23.21.20:326][398]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/cable
+[2023.09.30-23.21.20:326][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/cable9066920041695DB65A76328C90E21975.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/cable.uasset'
+[2023.09.30-23.21.20:342][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/canon" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/canon.uasset" SILENT=true
+[2023.09.30-23.21.20:344][398]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/canon
+[2023.09.30-23.21.20:344][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/canon2225FE484BD8E7278A28179D93D54BB6.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/canon.uasset'
+[2023.09.30-23.21.20:361][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/corps" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/corps.uasset" SILENT=true
+[2023.09.30-23.21.20:364][398]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/corps
+[2023.09.30-23.21.20:364][398]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/corpsAB18F9DA4B0001D2F34866A75ADF365F.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/corps.uasset'
+[2023.09.30-23.21.20:365][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.19 sec (total: 4.86 sec)
+[2023.09.30-23.21.20:401][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.09.30-23.21.20:414][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.09.30-23.21.20:426][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.09.30-23.21.20:439][398]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-23.21.20:439][398]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/accroche.accroche
+[2023.09.30-23.21.20:439][398]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/antenne.antenne
+[2023.09.30-23.21.20:439][398]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/cable.cable
+[2023.09.30-23.21.20:439][398]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/canon.canon
+[2023.09.30-23.21.20:439][398]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/corps.corps
+[2023.09.30-23.21.27:280][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-23.21.27:282][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/accroche
+[2023.09.30-23.21.27:282][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/accroche90B6215E43EC66C2428B4B8A11B12643.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/accroche.uasset'
+[2023.09.30-23.21.27:283][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/antenne" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/antenne.uasset" SILENT=true
+[2023.09.30-23.21.27:285][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/antenne
+[2023.09.30-23.21.27:285][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/antenne3B1F6B894D0EA1BC9F18B8952ADBE4AE.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/antenne.uasset'
+[2023.09.30-23.21.27:286][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/cable" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/cable.uasset" SILENT=true
+[2023.09.30-23.21.27:287][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/cable
+[2023.09.30-23.21.27:288][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/cable5DE2C7CC42C6CDAA6EEC7681F34C6A8C.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/cable.uasset'
+[2023.09.30-23.21.27:289][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/canon" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/canon.uasset" SILENT=true
+[2023.09.30-23.21.27:290][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/canon
+[2023.09.30-23.21.27:290][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/canonAB2623E34F165AB30719A5BBB4F231A1.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/canon.uasset'
+[2023.09.30-23.21.27:292][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/corps" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/corps.uasset" SILENT=true
+[2023.09.30-23.21.27:295][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/corps
+[2023.09.30-23.21.27:296][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/corpsD3F03FCF4AC9EFA51FB9A7B4C86222FA.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/corps.uasset'
+[2023.09.30-23.21.27:348][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_02_Sphere
+[2023.09.30-23.21.27:348][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_SphereA85EAD0A4ED58255D8727B887FC6D0E3.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_02_Sphere.uasset'
+[2023.09.30-23.21.27:408][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_accroche_BaseColor
+[2023.09.30-23.21.27:408][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_accroche_BasEA9CB62642509B74C4750BB959221AF7.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_accroche_BaseColor.uasset'
+[2023.09.30-23.21.27:428][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_antenne_BaseColor
+[2023.09.30-23.21.27:428][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_antenne_BaseAC8B80E34E01A5FC00AD60A396D26305.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_antenne_BaseColor.uasset'
+[2023.09.30-23.21.27:441][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_cable_BaseColor
+[2023.09.30-23.21.27:441][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_cable_BaseCoF36A508243BA149104DAE5B3E15DED7F.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_cable_BaseColor.uasset'
+[2023.09.30-23.21.27:463][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_canon_BaseColor
+[2023.09.30-23.21.27:463][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_canon_BaseCo72200DCA40C676AE0181B197D7C5AD59.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_canon_BaseColor.uasset'
+[2023.09.30-23.21.27:522][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_corps_BaseColor
+[2023.09.30-23.21.27:522][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_corps_BaseCoF14C8F2441230861277038BD31FF1D69.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_corps_BaseColor.uasset'
+[2023.09.30-23.21.27:590][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/drone_fufu_collpase_fusil_BaseColor
+[2023.09.30-23.21.27:590][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_fusil_BaseCo4773E5204648578A5980519EAFB63A8E.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/drone_fufu_collpase_fusil_BaseColor.uasset'
+[2023.09.30-23.21.27:606][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/drone/textures/fusil" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/fusil.uasset" SILENT=true
+[2023.09.30-23.21.27:609][ 52]LogSavePackage: Moving output files for package: /Game/Items/drone/textures/fusil
+[2023.09.30-23.21.27:609][ 52]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/fusilA93011CC469F1216CFF7D497DF3D0ED4.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/textures/fusil.uasset'
+[2023.09.30-23.21.27:610][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 329 ms (total: 5.19 sec)
+[2023.09.30-23.21.27:660][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.09.30-23.21.27:671][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.09.30-23.21.27:682][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.09.30-23.21.27:704][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/accroche.accroche
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/antenne.antenne
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/cable.cable
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/canon.canon
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/corps.corps
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/textures/drone_fufu_collpase_02_Sphere.drone_fufu_collpase_02_Sphere
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_accroche_BaseColor.drone_fufu_collpase_accroche_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_antenne_BaseColor.drone_fufu_collpase_antenne_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_cable_BaseColor.drone_fufu_collpase_cable_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_canon_BaseColor.drone_fufu_collpase_canon_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_corps_BaseColor.drone_fufu_collpase_corps_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Items/drone/textures/drone_fufu_collpase_fusil_BaseColor.drone_fufu_collpase_fusil_BaseColor
+[2023.09.30-23.21.27:704][ 52]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Items/drone/textures/fusil.fusil
+[2023.09.30-23.23.05:124][922]LogSlate: Window 'Content Browser' being destroyed
+[2023.09.30-23.23.06:539][ 27]LogSlate: Window 'Content Browser' being destroyed
+[2023.09.30-23.23.09:682][272]LogSlate: Window 'Message Log' being destroyed
+[2023.09.30-23.23.19:463][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.23.19:463][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.23.19:464][110]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0
+[2023.09.30-23.23.19:464][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.23.19:464][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.23.19:464][110]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.23.19:465][110]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.23.19:466][110]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5
+[2023.09.30-23.23.19:468][110]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:468][110]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:468][110]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:468][110]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:468][110]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:505][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:505][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:505][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:505][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:505][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:506][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:506][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:506][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:506][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:506][112]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:531][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:532][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:532][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:532][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:532][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:533][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:533][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:533][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:533][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:533][114]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:591][116]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:591][116]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:591][116]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:591][116]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:591][116]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:596][117]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:596][117]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:596][117]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:596][117]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:596][117]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:610][118]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:610][118]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:610][118]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:610][118]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:610][118]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:648][119]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:648][119]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:648][119]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:648][119]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:648][119]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:653][120]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:653][120]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:653][120]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:653][120]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:653][120]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:683][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:683][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:683][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:683][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:683][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:685][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:686][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:686][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:686][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:686][122]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:726][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:726][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:726][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:726][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:726][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:727][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:727][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:727][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:727][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:727][124]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:767][126]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:767][126]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:767][126]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:767][126]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:767][126]PIE: Warning: Mobility of /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2023.09.30-23.23.19:906][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.23.19:906][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.23.19:907][132]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_6
+[2023.09.30-23.23.19:932][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.23.19:932][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.23.19:932][132]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_7
+[2023.09.30-23.23.19:957][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.23.19:957][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.23.19:958][132]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_8
+[2023.09.30-23.23.19:979][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.23.19:979][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.23.19:980][132]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_9
+[2023.09.30-23.23.20:004][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.23.20:004][132]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.23.20:005][132]LogActorFactory: Actor Factory spawned StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil as actor: StaticMeshActor /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_10
+[2023.09.30-23.23.30:515][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.23.30:515][980]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.23.30:515][980]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.23.30:515][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.23.30:515][980]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-23.23.30:517][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-23.23.30:521][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.23.30:532][980]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-23.23.30:532][980]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.30-23.23.30:533][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.30-23.23.30:534][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.30-23.23.30:540][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.23.30:543][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.09.30-23.23.30:666][981]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.09.30-23.23.33:097][157]LogSlate: Window 'Message Log' being destroyed
+[2023.09.30-23.23.40:770][810]Cmd: TRANSACTION UNDO
+[2023.09.30-23.23.40:771][810]LogEditorTransaction: Undo Clicking on Elements
+[2023.09.30-23.23.55:005][ 81]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-23.23.55:012][ 81]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-23.23.55:012][ 81]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-23.23.55:014][ 81]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 25 ms)
+[2023.09.30-23.23.55:014][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-23.23.55:014][ 81]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오후 5:23:55)
+[2023.09.30-23.23.55:014][ 81]LogPlayLevel: Display: Creating online subsystem for client :Context_63
+[2023.09.30-23.23.55:016][ 81]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.09.30-23.23.55:025][ 82]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.23.55:027][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002125s)
+[2023.09.30-23.23.55:028][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002156s)
+[2023.09.30-23.23.55:040][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.09.30-23.23.55:048][ 82]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.23.55:048][ 82]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.23.55:048][ 82]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-23.23.55:049][ 82]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-23.23.55:049][ 82]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-23.23.55:049][ 82]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-23.23.55:049][ 82]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-23.23.55:050][ 82]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-23.23.55:050][ 82]LogWorldPartition: Display: WorldPartition initialize took 742 us (total: 62 ms)
+[2023.09.30-23.23.55:050][ 82]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2023.09.30-23.23.55:050][ 82]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-23.23.55:050][ 82]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-23.23.55:050][ 82]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-23.23.55:050][ 82]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-23.23.55:050][ 82]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-23.23.55:050][ 82]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-23.23.55:052][ 82]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-23.23.55:066][ 82]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-23.23.55:066][ 82]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-23.23.55:067][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-23.23.55:067][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-23.23.55:067][ 82]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.09.30-23.23.55:067][ 82]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.09.30-23.23.55:068][ 82]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.09.30-23.23.55:068][ 82]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.09.30-23.23.55:068][ 82]LogInit: FAudioDevice initialized with ID 19.
+[2023.09.30-23.23.55:068][ 82]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2023.09.30-23.23.55:068][ 82]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.30-23.23.55:071][ 82]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-23.23.55:072][ 82]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.01-08.23.55
+[2023.09.30-23.23.55:072][ 82]LogWorld: Bringing up level for play took: 0.000765
+[2023.09.30-23.23.55:075][ 82]PIE: Server logged in
+[2023.09.30-23.23.55:076][ 82]PIE: Play in editor total start time 0.064 seconds.
+[2023.09.30-23.23.58:094][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.23.58:094][309]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.23.58:094][309]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.23.58:095][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.23.58:095][309]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-23.23.58:097][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-23.23.58:100][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.23.58:112][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.23.58:112][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.30-23.23.58:112][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.30-23.23.58:114][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.30-23.23.58:121][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.09.30-23.23.58:158][312]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.09.30-23.24.49:437][339]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+[2023.09.30-23.24.49:438][339]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.24.49:438][339]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.24.49:452][339]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-23.24.49:769][339]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.09.30-23.24.49:815][339]LogViewport: Scene viewport resized to 1430x866, mode Windowed.
+[2023.09.30-23.30.14:078][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-23.30.14:190][189]LogSavePackage: Moving output files for package: /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin
+[2023.09.30-23.30.14:191][189]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/SK_Mannequin5B103C26493E480ED27B688165A3ECF0.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uasset'
+[2023.09.30-23.30.14:198][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 5.31 sec)
+[2023.09.30-23.30.14:202][189]AssetCheck: New page: Asset Save: SK_Mannequin
+[2023.09.30-23.30.14:202][189]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+[2023.09.30-23.30.15:413][247]LogSlate: Window 'SK_Mannequin' being destroyed
+[2023.09.30-23.30.15:429][247]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.30.15:429][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.30.23:144][849]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-23.30.23:151][849]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-23.30.23:151][849]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-23.30.23:152][849]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 27 ms)
+[2023.09.30-23.30.23:152][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-23.30.23:152][849]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오후 5:30:23)
+[2023.09.30-23.30.23:152][849]LogPlayLevel: Display: Creating online subsystem for client :Context_65
+[2023.09.30-23.30.23:154][849]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2023.09.30-23.30.23:163][850]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.30.23:167][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003924s)
+[2023.09.30-23.30.23:167][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003974s)
+[2023.09.30-23.30.23:188][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.09.30-23.30.23:193][850]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.30.23:194][850]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.30.23:194][850]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-23.30.23:195][850]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-23.30.23:195][850]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-23.30.23:195][850]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-23.30.23:195][850]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-23.30.23:195][850]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-23.30.23:195][850]LogWorldPartition: Display: WorldPartition initialize took 741 us (total: 63 ms)
+[2023.09.30-23.30.23:195][850]LogPlayLevel: PIE: World Init took: (0.002097s)
+[2023.09.30-23.30.23:195][850]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-23.30.23:196][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-23.30.23:196][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-23.30.23:196][850]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-23.30.23:196][850]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-23.30.23:196][850]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-23.30.23:198][850]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-23.30.23:214][850]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-23.30.23:215][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-23.30.23:215][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-23.30.23:215][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-23.30.23:216][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.09.30-23.30.23:216][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.09.30-23.30.23:217][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.09.30-23.30.23:217][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.09.30-23.30.23:217][850]LogInit: FAudioDevice initialized with ID 20.
+[2023.09.30-23.30.23:217][850]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2023.09.30-23.30.23:217][850]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.30-23.30.23:219][850]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-23.30.23:220][850]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.01-08.30.23
+[2023.09.30-23.30.23:220][850]LogWorld: Bringing up level for play took: 0.000581
+[2023.09.30-23.30.23:223][850]PIE: Server logged in
+[2023.09.30-23.30.23:223][850]PIE: Play in editor total start time 0.073 seconds.
+[2023.09.30-23.30.25:392][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.30.25:392][ 12]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.30.25:392][ 12]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.30.25:392][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.30.25:393][ 12]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-23.30.25:395][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-23.30.25:398][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.30.25:410][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-23.30.25:411][ 12]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.30-23.30.25:411][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.30-23.30.25:412][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.30-23.30.25:418][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.30.25:421][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.09.30-23.30.25:456][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.09.30-23.30.33:244][617]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/BP_player.BP_player
+[2023.09.30-23.30.33:245][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.30.33:245][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.31.18:193][296]BlueprintLog: New page: Compile BP_player
+[2023.09.30-23.31.18:230][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.09.30-23.31.20:060][426]LogSlate: Window 'BP_player' being destroyed
+[2023.09.30-23.31.20:069][426]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.31.20:069][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.31.21:539][539]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-23.31.21:545][539]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-23.31.21:545][539]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-23.31.21:546][539]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 28 ms)
+[2023.09.30-23.31.21:546][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-23.31.21:546][539]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오후 5:31:21)
+[2023.09.30-23.31.21:546][539]LogPlayLevel: Display: Creating online subsystem for client :Context_67
+[2023.09.30-23.31.21:548][539]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2023.09.30-23.31.21:557][540]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.31.21:560][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002331s)
+[2023.09.30-23.31.21:560][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002379s)
+[2023.09.30-23.31.21:575][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.09.30-23.31.21:579][540]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.31.21:579][540]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.31.21:580][540]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-23.31.21:580][540]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-23.31.21:580][540]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-23.31.21:580][540]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-23.31.21:580][540]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-23.31.21:581][540]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-23.31.21:581][540]LogWorldPartition: Display: WorldPartition initialize took 606 us (total: 64 ms)
+[2023.09.30-23.31.21:581][540]LogPlayLevel: PIE: World Init took: (0.001802s)
+[2023.09.30-23.31.21:581][540]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-23.31.21:581][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-23.31.21:581][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-23.31.21:581][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-23.31.21:581][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-23.31.21:581][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-23.31.21:583][540]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-23.31.21:598][540]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-23.31.21:598][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-23.31.21:598][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-23.31.21:598][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-23.31.21:598][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.09.30-23.31.21:598][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.09.30-23.31.21:600][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.09.30-23.31.21:600][540]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.09.30-23.31.21:600][540]LogInit: FAudioDevice initialized with ID 21.
+[2023.09.30-23.31.21:600][540]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.09.30-23.31.21:600][540]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.30-23.31.21:603][540]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-23.31.21:604][540]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.01-08.31.21
+[2023.09.30-23.31.21:604][540]LogWorld: Bringing up level for play took: 0.000908
+[2023.09.30-23.31.21:607][540]PIE: Server logged in
+[2023.09.30-23.31.21:607][540]PIE: Play in editor total start time 0.062 seconds.
+[2023.09.30-23.31.59:848][213]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+[2023.09.30-23.31.59:850][213]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.31.59:850][213]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.31.59:864][213]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.09.30-23.32.00:154][213]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.09.30-23.32.00:204][213]LogViewport: Scene viewport resized to 1430x866, mode Windowed.
+[2023.09.30-23.33.36:607][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.09.30-23.33.36:615][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-23.33.36:638][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/BP_player" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/BP_player.uasset" SILENT=true
+[2023.09.30-23.33.36:652][488]LogSavePackage: Moving output files for package: /Game/ThirdPerson/BP_player
+[2023.09.30-23.33.36:653][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/BP_playerCCD281154291EA4838FBFCAD45A585F4.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/BP_player.uasset'
+[2023.09.30-23.33.36:658][488]LogSavePackage: Moving output files for package: /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton
+[2023.09.30-23.33.36:658][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/SK_Mannequin_Skeleton0EE2D4C3406732C78BA7BB883C8327C9.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset'
+[2023.09.30-23.33.36:675][488]LogSavePackage: Moving output files for package: /Game/Items/drone/drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.33.36:675][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_Cylinder1931D4AF472FFBDCAB8CD59DAC079D93.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/drone_fufu_collpase_02_Cylinder.uasset'
+[2023.09.30-23.33.36:694][488]LogSavePackage: Moving output files for package: /Game/Items/drone/drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.33.36:694][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_accroche_4FF599A242A14F09579DD3A617401D08.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/drone_fufu_collpase_02_accroche_1.uasset'
+[2023.09.30-23.33.36:718][488]LogSavePackage: Moving output files for package: /Game/Items/drone/drone_fufu_collpase_02_cable
+[2023.09.30-23.33.36:718][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_cable54E86EE942A4E958D97814B9EA1F933E.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/drone_fufu_collpase_02_cable.uasset'
+[2023.09.30-23.33.36:734][488]LogSavePackage: Moving output files for package: /Game/Items/drone/drone_fufu_collpase_02_fusil
+[2023.09.30-23.33.36:734][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_fusilFF7BA7924021D2B0351D46B45842E509.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/drone_fufu_collpase_02_fusil.uasset'
+[2023.09.30-23.33.36:749][488]LogSavePackage: Moving output files for package: /Game/Items/drone/drone_fufu_collpase_02_canon
+[2023.09.30-23.33.36:749][488]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/drone_fufu_collpase_02_canonEAB9B24548EFD530294A4283D71B0328.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/Items/drone/drone_fufu_collpase_02_canon.uasset'
+[2023.09.30-23.33.36:750][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 5.44 sec)
+[2023.09.30-23.33.36:756][488]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/BP_player.BP_player
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/drone_fufu_collpase_02_Cylinder.drone_fufu_collpase_02_Cylinder
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/drone_fufu_collpase_02_accroche_1.drone_fufu_collpase_02_accroche_1
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/drone_fufu_collpase_02_cable.drone_fufu_collpase_02_cable
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/drone_fufu_collpase_02_fusil.drone_fufu_collpase_02_fusil
+[2023.09.30-23.33.36:756][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Items/drone/drone_fufu_collpase_02_canon.drone_fufu_collpase_02_canon
+[2023.09.30-23.33.37:338][526]LogSlate: Window 'SK_Mannequin' being destroyed
+[2023.09.30-23.33.37:352][526]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.33.37:352][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.34.33:148][164]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/BP_player.BP_player
+[2023.09.30-23.34.33:148][164]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.34.33:148][164]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.34.44:940][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.34.44:941][999]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.34.44:941][999]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.34.44:941][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.34.44:941][999]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.09.30-23.34.44:943][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.30-23.34.44:946][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.34.44:958][999]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.30-23.34.44:958][999]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.30-23.34.44:958][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.30-23.34.44:960][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.30-23.34.44:965][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.30-23.34.44:967][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.09.30-23.34.45:016][  2]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2023.09.30-23.38.17:038][788]BlueprintLog: New page: Compile BP_player
+[2023.09.30-23.38.17:099][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.09.30-23.38.29:354][647]LogSlate: Window 'BP_player' being destroyed
+[2023.09.30-23.38.29:363][647]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.09.30-23.38.29:363][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.30-23.38.30:934][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.09.30-23.38.30:940][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.30-23.38.31:044][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/BP_player" FILE="../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/BP_player.uasset" SILENT=true
+[2023.09.30-23.38.31:059][763]LogSavePackage: Moving output files for package: /Game/ThirdPerson/BP_player
+[2023.09.30-23.38.31:060][763]LogSavePackage: Moving '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Saved/BP_player0F28C1B94CD7739F5FE539A044BA5D21.tmp' to '../../../../../../Users/dongjun.lee/Documents/Unreal Projects/ue5_practice/Content/ThirdPerson/BP_player.uasset'
+[2023.09.30-23.38.31:066][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 5.57 sec)
+[2023.09.30-23.38.31:070][763]AssetCheck: New page: Asset Save: BP_player
+[2023.09.30-23.38.31:070][763]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/BP_player.BP_player
+[2023.09.30-23.38.32:237][858]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.30-23.38.32:242][858]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.30-23.38.32:242][858]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.09.30-23.38.32:244][858]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 29 ms)
+[2023.09.30-23.38.32:244][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.30-23.38.32:244][858]PIE: New page: PIE session: ThirdPersonMap (2023. 10. 1. 오후 5:38:32)
+[2023.09.30-23.38.32:244][858]LogPlayLevel: Display: Creating online subsystem for client :Context_70
+[2023.09.30-23.38.32:245][858]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.09.30-23.38.32:255][859]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.30-23.38.32:257][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002190s)
+[2023.09.30-23.38.32:257][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002223s)
+[2023.09.30-23.38.32:267][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.09.30-23.38.32:269][859]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.30-23.38.32:269][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.30-23.38.32:269][859]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.30-23.38.32:270][859]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.30-23.38.32:270][859]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.30-23.38.32:270][859]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.30-23.38.32:270][859]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.09.30-23.38.32:271][859]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.09.30-23.38.32:271][859]LogWorldPartition: Display: WorldPartition initialize took 903 us (total: 64 ms)
+[2023.09.30-23.38.32:271][859]LogPlayLevel: PIE: World Init took: (0.002483s)
+[2023.09.30-23.38.32:271][859]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.09.30-23.38.32:271][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.30-23.38.32:271][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.30-23.38.32:272][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.30-23.38.32:272][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.30-23.38.32:272][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.30-23.38.32:274][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.30-23.38.32:290][859]LogAudioMixer: Display: Using Audio Hardware Device Headphones(High Definition Audio Device)
+[2023.09.30-23.38.32:290][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.30-23.38.32:290][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.30-23.38.32:290][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.30-23.38.32:291][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.09.30-23.38.32:291][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.09.30-23.38.32:292][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.09.30-23.38.32:292][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.09.30-23.38.32:292][859]LogInit: FAudioDevice initialized with ID 22.
+[2023.09.30-23.38.32:292][859]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2023.09.30-23.38.32:292][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.09.30-23.38.32:294][859]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.30-23.38.32:295][859]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.10.01-08.38.32
+[2023.09.30-23.38.32:295][859]LogWorld: Bringing up level for play took: 0.000547
+[2023.09.30-23.38.32:297][859]PIE: Server logged in
+[2023.09.30-23.38.32:298][859]PIE: Play in editor total start time 0.056 seconds.
+[2023.09.30-23.38.55:367][266]LogViewport: Scene viewport resized to 1015x580, mode Windowed.
+[2023.09.30-23.38.56:385][266]LogViewport: Scene viewport resized to 754x894, mode Windowed.
+[2023.09.30-23.39.00:447][278]LogViewport: Scene viewport resized to 641x894, mode Windowed.
