@@ -1522,3 +1522,320 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.04-06.04.55:421][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.11.04-06.04.55:428][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2023.11.04-06.04.55:587][738]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.04-06.05.23:302][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.11.04-06.05.23:303][ 48]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.013
+[2023.11.04-06.05.23:303][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/lost_ark_character/boss/BP_boss] ([2] browsable assets)...
+[2023.11.04-06.05.23:387][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/lost_ark_character/boss/BP_boss.BP_boss]
+[2023.11.04-06.05.23:387][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/lost_ark_character/boss/BP_boss]
+[2023.11.04-06.05.23:394][ 48]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/lost_ark_character/boss/BP_boss_Auto1
+[2023.11.04-06.05.23:394][ 48]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_boss_Auto1D38548A24EF9F1D6EA83DAADB4B36F6B.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/Autosaves/Game/Characters/lost_ark_character/boss/BP_boss_Auto1.uasset'
+[2023.11.04-06.05.23:395][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target] ([2] browsable assets)...
+[2023.11.04-06.05.23:395][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target]
+[2023.11.04-06.05.23:399][ 48]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target_Auto1
+[2023.11.04-06.05.23:399][ 48]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BT_task_attack_target_Auto1AF2D719C40C1011EEA6BC5930B317D52.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/Autosaves/Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target_Auto1.uasset'
+[2023.11.04-06.05.23:400][ 48]LogFileHelpers: Auto-saving content packages took 0.097
+[2023.11.04-06.41.10:239][488]LogDerivedDataCache: C:/Users/jjbas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.304 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4390 files in 5971 folders with total size 380 MiB.
+[2023.11.04-06.46.04:311][888]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_25
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.05:305][932]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_26
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.05:937][933]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_27
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.05:950][934]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss
+[2023.11.04-06.46.05:953][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.05:953][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.46.06:138][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.06:138][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.46.06:284][934]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.04-06.46.06:287][934]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.06:739][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.06:739][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.46.06:891][934]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.06:923][934]LogSlate: Took 0.006186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.11.04-06.46.06:929][934]LogViewport: Scene viewport resized to 636x587, mode Windowed.
+[2023.11.04-06.46.06:975][934]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.11.04-06.46.07:032][935]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:064][936]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:076][937]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:087][938]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:097][939]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:106][940]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:119][941]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:134][942]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:151][943]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:164][944]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:173][945]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:182][946]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.07:191][947]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_boss_C_0
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.09:796][179]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_28
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.09:801][179]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_29
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.10:361][232]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_30
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.10:374][233]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_31
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.10:388][234]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_32
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.46.16:683][836]LogSlate: Window 'BT_task_attack_target' being destroyed
+[2023.11.04-06.46.16:696][836]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.11.04-06.46.16:696][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.46.18:002][970]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.11.04-06.46.18:008][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-06.46.18:085][970]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/boss/BP_boss
+[2023.11.04-06.46.18:086][970]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_boss20EF667544B18EBDB1CAEA8BA4496F8A.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/boss/BP_boss.uasset'
+[2023.11.04-06.46.18:092][970]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target
+[2023.11.04-06.46.18:094][970]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BT_task_attack_targetD16D36A84473D72133C5BD91F12E11BA.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target.uasset'
+[2023.11.04-06.46.18:104][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 621 ms)
+[2023.11.04-06.46.18:107][970]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.04-06.46.18:107][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/boss/BP_boss.BP_boss
+[2023.11.04-06.46.18:107][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/boss/AI/tasks/BT_task_attack_target.BT_task_attack_target
+[2023.11.04-06.46.28:291][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.11.04-06.46.28:295][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-06.46.28:376][ 87]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/boss/BP_boss
+[2023.11.04-06.46.28:377][ 87]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_boss4376D86C498044D429E349897D2E31FA.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/boss/BP_boss.uasset'
+[2023.11.04-06.46.28:386][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 712 ms)
+[2023.11.04-06.46.28:387][ 87]AssetCheck: New page: Asset Save: BP_boss
+[2023.11.04-06.46.28:387][ 87]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/boss/BP_boss.BP_boss
+[2023.11.04-06.46.33:438][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.11.04-06.46.33:442][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-06.46.33:549][589]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/boss/BP_boss
+[2023.11.04-06.46.33:550][589]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_bossB81C2EAA40449653486ED5B7AEFF3850.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/boss/BP_boss.uasset'
+[2023.11.04-06.46.33:560][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 830 ms)
+[2023.11.04-06.46.33:562][589]AssetCheck: New page: Asset Save: BP_boss
+[2023.11.04-06.46.33:562][589]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/boss/BP_boss.BP_boss
+[2023.11.04-06.46.43:464][671]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.44:563][778]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/lost_ark_character/player/BP_player.BP_player
+[2023.11.04-06.46.44:563][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.44:563][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.46.45:142][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.56:574][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.04-06.46.56:578][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-06.46.56:624][918]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.46.56:801][918]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/player/BP_player
+[2023.11.04-06.46.56:802][918]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_player606954D74866BD3EC918AFBDB493403D.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/player/BP_player.uasset'
+[2023.11.04-06.46.56:816][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 1.06 sec)
+[2023.11.04-06.46.56:829][918]AssetCheck: New page: Asset Save: BP_player
+[2023.11.04-06.46.56:829][918]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/player/BP_player.BP_player
+[2023.11.04-06.46.58:239][ 32]LogViewport: Scene viewport resized to 1662x973, mode Windowed.
+[2023.11.04-06.47.06:960][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.11.04-06.47.07:404][ 41]BlueprintLog: New page: Compile BP_player
+[2023.11.04-06.47.07:514][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.11.04-06.47.08:961][180]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.04-06.47.08:967][180]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.11.04-06.47.08:967][180]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.11.04-06.47.08:968][180]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 3 ms)
+[2023.11.04-06.47.08:975][180]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.04-06.47.08:976][180]LogPlayLevel: [PlayLevel] Compiling BP_boss before play...
+[2023.11.04-06.47.09:149][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.04-06.47.09:152][180]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (1 blueprints)
+[2023.11.04-06.47.09:152][180]PIE: New page: PIE session: ThirdPersonMap (2023. 11. 5. 오전 12:47:09)
+[2023.11.04-06.47.09:152][180]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2023.11.04-06.47.09:154][180]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.11.04-06.47.09:161][181]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.04-06.47.09:166][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004433s)
+[2023.11.04-06.47.09:166][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004499s)
+[2023.11.04-06.47.09:177][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.11.04-06.47.09:178][181]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.47.09:178][181]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.47.09:178][181]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.04-06.47.09:179][181]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.11.04-06.47.09:179][181]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.04-06.47.09:179][181]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.11.04-06.47.09:179][181]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.11.04-06.47.09:180][181]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.11.04-06.47.09:180][181]LogWorldPartition: Display: WorldPartition initialize took 713 us (total: 212 ms)
+[2023.11.04-06.47.09:180][181]LogPlayLevel: PIE: World Init took: (0.002225s)
+[2023.11.04-06.47.09:180][181]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.04-06.47.09:180][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.04-06.47.09:180][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.04-06.47.09:180][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.04-06.47.09:180][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.04-06.47.09:180][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.04-06.47.09:182][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.04-06.47.09:209][181]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.11.04-06.47.09:210][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.04-06.47.09:210][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.04-06.47.09:210][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.04-06.47.09:211][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.11.04-06.47.09:211][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.11.04-06.47.09:214][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.11.04-06.47.09:214][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.11.04-06.47.09:214][181]LogInit: FAudioDevice initialized with ID 4.
+[2023.11.04-06.47.09:214][181]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.11.04-06.47.09:214][181]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.04-06.47.09:279][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.04-06.47.09:279][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.04-06.47.09:281][181]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.04-15.47.09
+[2023.11.04-06.47.09:283][181]LogWorld: Bringing up level for play took: 0.002496
+[2023.11.04-06.47.09:291][181]PIE: Server logged in
+[2023.11.04-06.47.09:291][181]PIE: Play in editor total start time 0.325 seconds.
+[2023.11.04-06.47.09:383][181]LogViewport: Scene viewport resized to 1274x1352, mode Windowed.
+[2023.11.04-06.47.37:588][743]LogViewport: Scene viewport resized to 2560x1358, mode Windowed.
+[2023.11.04-06.48.36:564][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.04-06.48.36:564][262]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.04-06.48.36:564][262]LogSlate: Window 'ue5_practice Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.11.04-06.48.36:572][262]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.04-06.48.36:573][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.48.36:573][262]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.11.04-06.48.36:581][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.04-06.48.36:584][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.48.36:597][262]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.11.04-06.48.36:597][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.04-06.48.36:608][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.11.04-06.48.36:623][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.04-06.48.36:776][263]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.11.04-06.49.38:522][206]LogSlate: Took 0.000915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.04-06.50.19:847][770]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_33
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.50.20:083][794]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_34
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.50.20:327][795]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_35
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.50.22:755][ 23]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Characters/lost_ark_character/boss/animations/skills/Standing_Melee_Attack_360_High_Montage.Standing_Melee_Attack_360_High_Montage
+[2023.11.04-06.50.22:769][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.50.22:770][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.50.22:776][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.04-06.50.23:121][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.50.23:122][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.50.23:395][ 23]LogViewport: Scene viewport resized to 1350x788, mode Windowed.
+[2023.11.04-06.50.23:551][ 25]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.50.25:685][168]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Characters/lost_ark_character/boss/animations/skills/Standing_Melee_Attack_Downward_Montage.Standing_Melee_Attack_Downward_Montage
+[2023.11.04-06.50.25:780][168]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.11.04-06.50.28:969][343]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Characters/lost_ark_character/boss/animations/skills/Standing_Melee_Attack_Horizontal_Montage.Standing_Melee_Attack_Horizontal_Montage
+[2023.11.04-06.50.36:039][705]LogSlate: Window 'Standing_Melee_Attack_Horizontal_Montage' being destroyed
+[2023.11.04-06.50.36:070][705]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.11.04-06.50.36:070][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.50.36:133][705]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.11.04-06.50.36:133][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.52.48:465][337]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.04-06.52.48:471][337]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.11.04-06.52.48:471][337]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2023.11.04-06.52.48:471][337]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 4 ms)
+[2023.11.04-06.52.48:477][337]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.04-06.52.48:478][337]LogPlayLevel: [PlayLevel] Compiling BP_boss before play...
+[2023.11.04-06.52.48:633][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.11.04-06.52.48:635][337]LogPlayLevel: PlayLevel: Blueprint regeneration took 158 ms (1 blueprints)
+[2023.11.04-06.52.48:635][337]PIE: New page: PIE session: ThirdPersonMap (2023. 11. 5. 오전 12:52:48)
+[2023.11.04-06.52.48:636][337]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2023.11.04-06.52.48:637][337]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.11.04-06.52.48:675][338]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.04-06.52.48:678][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003004s)
+[2023.11.04-06.52.48:678][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003057s)
+[2023.11.04-06.52.48:687][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.11.04-06.52.48:688][338]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.52.48:688][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.04-06.52.48:688][338]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.04-06.52.48:689][338]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.11.04-06.52.48:689][338]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.04-06.52.48:689][338]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.11.04-06.52.48:689][338]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.11.04-06.52.48:689][338]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.11.04-06.52.48:689][338]LogWorldPartition: Display: WorldPartition initialize took 957 us (total: 213 ms)
+[2023.11.04-06.52.48:689][338]LogPlayLevel: PIE: World Init took: (0.002159s)
+[2023.11.04-06.52.48:689][338]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.11.04-06.52.48:689][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.04-06.52.48:689][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.04-06.52.48:689][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.04-06.52.48:689][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.04-06.52.48:689][338]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.04-06.52.48:691][338]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.04-06.52.48:691][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.04-06.52.48:691][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.04-06.52.48:691][338]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.04-06.52.48:691][338]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.04-06.52.48:691][338]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.04-06.52.48:693][338]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.04-06.52.48:715][338]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2023.11.04-06.52.48:715][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.04-06.52.48:715][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.04-06.52.48:715][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.04-06.52.48:716][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.11.04-06.52.48:716][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.11.04-06.52.48:718][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.11.04-06.52.48:718][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.11.04-06.52.48:718][338]LogInit: FAudioDevice initialized with ID 5.
+[2023.11.04-06.52.48:718][338]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2023.11.04-06.52.48:718][338]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.04-06.52.48:764][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.04-06.52.48:764][338]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.04-06.52.48:767][338]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.04-15.52.48
+[2023.11.04-06.52.48:767][338]LogWorld: Bringing up level for play took: 0.001751
+[2023.11.04-06.52.48:776][338]PIE: Server logged in
+[2023.11.04-06.52.48:777][338]PIE: Play in editor total start time 0.307 seconds.
+[2023.11.04-06.52.48:846][338]LogViewport: Scene viewport resized to 2554x1352, mode Windowed.
+[2023.11.04-06.53.32:005][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.04-06.53.32:005][281]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.04-06.53.32:005][281]LogSlate: Window 'ue5_practice Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.11.04-06.53.32:010][281]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.04-06.53.32:010][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.53.32:010][281]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.11.04-06.53.32:026][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.04-06.53.32:030][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.04-06.53.32:043][281]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.11.04-06.53.32:043][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.04-06.53.32:048][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.11.04-06.53.32:058][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.11.04-06.53.32:245][282]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.11.04-06.53.33:314][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.11.04-06.53.33:319][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-06.53.33:429][407]LogSavePackage: Moving output files for package: /Game/Characters/lost_ark_character/boss/BP_boss
+[2023.11.04-06.53.33:430][407]LogSavePackage: Moving '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Saved/BP_boss471D73AE4409824639595E920F3D1D7A.tmp' to '../../../../../../Users/jjbas/OneDrive/ドキュメント/Unreal Projects/ue5_practice/Content/Characters/lost_ark_character/boss/BP_boss.uasset'
+[2023.11.04-06.53.33:438][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 1.18 sec)
+[2023.11.04-06.53.33:440][407]AssetCheck: New page: Asset Save: BP_boss
+[2023.11.04-06.53.33:440][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/lost_ark_character/boss/BP_boss.BP_boss
+[2023.11.04-06.53.41:309][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.53.44:984][710]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_boss_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_boss_C_36
+	Function /Game/Characters/lost_ark_character/boss/animations/ABP_boss.ABP_boss_C:ExecuteUbergraph_ABP_boss:0040
+[2023.11.04-06.53.58:691][295]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.54.02:511][706]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FX/circle_ring/BP_circle_ring.BP_circle_ring
+[2023.11.04-06.54.02:511][706]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.04-06.54.02:511][706]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
