@@ -5,6 +5,6 @@
 * 이동 중에 충돌이 발생하면, 목표 지점 이펙트가 있는 경우 없어지고 그 자리에서 정지한다.
 
 |우클릭|드래그|충돌 - 정지|
-|:--:|:--:|:--:|
+|:-:|:-:|:-:|
 |
-[![test video](https://img.youtube.com/vi/idr-f75ca-8/0.jpg)](https://www.youtube.com/watch?v=idr-f75ca-8)|[![test video](https://img.youtube.com/vi/c5z-8Aq7CWU/0.jpg)](https://www.youtube.com/watch?v=c5z-8Aq7CWU)|[![test video](https://img.youtube.com/vi/IThrRXisehE/0.jpg)](https://www.youtube.com/watch?v=IThrRXisehE)|
+[![test video](https://img.youtube.com/vi/idr-f75ca-8/2.jpg)](https://www.youtube.com/watch?v=idr-f75ca-8)|[![test video](https://img.youtube.com/vi/c5z-8Aq7CWU/2.jpg)](https://www.youtube.com/watch?v=c5z-8Aq7CWU)|[![test video](https://img.youtube.com/vi/IThrRXisehE/2.jpg)](https://www.youtube.com/watch?v=IThrRXisehE)|
