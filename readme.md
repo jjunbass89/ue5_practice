@@ -49,10 +49,10 @@
 
 * 울부짖는 상황에서 몬스터의 정면에서 플레이어가 w 스킬로 몬스터에게 공격을 성공하면 5초간의 그로기 상황이 발생하고, 실패한 경우 직선형 공격이 이어진다. 이 공격은 플레이어에게 30 의 데미지를 입힌다.
 
-    [![video](https://img.youtube.com/vi/IThrRXisehE/0.jpg)](https://www.youtube.com/watch?v=IThrRXisehE)|
+    [![video](https://img.youtube.com/vi/mY8DevQLvzc/0.jpg)](https://www.youtube.com/watch?v=mY8DevQLvzc)|
 
 ## HP
-* 최대 HP 는 300 으로 화면에 표시된지 않는다. HP 가 0가 되면 플레이어처럼 그 자리에서 쓰러진다.
+* 최대 HP 는 300 으로 화면에 표시되지 않는다. HP 가 0가 되면 플레이어처럼 그 자리에서 쓰러진다.
 
     [![video](https://img.youtube.com/vi/IThrRXisehE/0.jpg)](https://www.youtube.com/watch?v=IThrRXisehE)|
 
